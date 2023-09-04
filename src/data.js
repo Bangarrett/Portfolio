@@ -2,7 +2,12 @@
 import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+// import Logo from "./images/logo.svg";
+import Pokemon from "./images/Pokemon.png";
+import Readme from "./images/Readme.png"
+import Hackaton from "./images/Hackaton.png"
+import Portfolio from "./images/Portfolio.png"
+import Quiz from "./images/Quiz.png"
 
 
 // Hero Images (add your images to the /images directory with the same names)
@@ -97,13 +102,29 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Api_pokemon", "Bangarrett", "Hackaton_Grupo_17", "Layout_8M", "Portfolio", "Quiz", "Snippets", "To-Do-List"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "Api_pokemon",
+    image: Pokemon,
+  },
+  {
+    name: "Bangarrett",
+    image: Readme,
+  },
+  {
+    name: "Hackaton_Grupo_17",
+    image: Hackaton,
+  },
+  {
+    name: "Portfolio",
+    image: Portfolio,
+  },
+  {
+    name: "Quiz",
+    image: Quiz,
   },
 
 ];

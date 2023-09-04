@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Icons
 import { Icon } from "@iconify/react";
 // Media
-import Logo from "../images/Foto-de-perfil.jpg";
+import Logo from "../images/FotoDePerfil.jpg";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
