@@ -9,6 +9,7 @@ import Hackaton from "./images/Hackaton.png"
 import Portfolio from "./images/Portfolio.png"
 import Layout8M from "./images/Layout8M.png"
 import Quiz from "./images/Quiz.png"
+import getCode from "./images/getCode.png"
 import ToDoList from "./images/ToDoList.png"
 
 // Hero Images (add your images to the /images directory with the same names)
@@ -32,8 +33,8 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Soy un profesional del área de la tecnología, especializado en desarrollo web fullstack, con alta tolerancia a la frustración y habilidad para trabajar en equipo de manera empática y paciente. Estudié el Bootcamp en desarrollo web FullStack en Fundación F5, donde adquirí experiencia en estructura y diseño web utilizando HTML, CSS, JavaScript, entre otras tecnologías. Soy organizado, comprometido y me adapto fácilmente a los cambios. Mi objetivo es seguir aprendiendo y aportar soluciones innovadoras y de calidad en cada proyecto, contribuyendo al éxito de los desafíos tecnológicos en mi carrera profesional.";
-
+  // "Soy un profesional del área de la tecnología, especializado en desarrollo web fullstack, con alta tolerancia a la frustración y habilidad para trabajar en equipo de manera empática y paciente. Estudié el Bootcamp en desarrollo web FullStack en Fundación F5, donde adquirí experiencia en estructura y diseño web utilizando HTML, CSS, JavaScript, entre otras tecnologías. Soy organizado, comprometido y me adapto fácilmente a los cambios. Mi objetivo es seguir aprendiendo y aportar soluciones innovadoras y de calidad en cada proyecto, contribuyendo al éxito de los desafíos tecnológicos en mi carrera profesional.";
+  "I am a technology professional, specialized in fullstack web development, with high frustration tolerance and ability to work in a team in an empathetic and patient way. I studied the Bootcamp in FullStack web development at F5 Foundation, where I acquired experience in web structure and design using HTML, CSS, JavaScript, among other technologies. I am organized, committed and I adapt easily to changes. My goal is to continue learning and provide innovative and quality solutions in each project, contributing to the success of the technological challenges in my professional career.";
 /* Skills
  ************************************************************** 
   Add or remove skills in the SAME format below, choose icons here - https://icon-sets.iconify.design/
@@ -132,6 +133,10 @@ export const projectCardImages = [
     image: Quiz,
   },
   {
+    name: "Snippets",
+    image: getCode,
+  },
+  {
     name: "To-Do-List",
     image: ToDoList,
   },
@@ -143,4 +148,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mqkvbjno";
