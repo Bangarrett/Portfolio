@@ -7,8 +7,9 @@ import Pokemon from "./images/Pokemon.png";
 import Readme from "./images/Readme.png"
 import Hackaton from "./images/Hackaton.png"
 import Portfolio from "./images/Portfolio.png"
+import Layout8M from "./images/Layout8M.png"
 import Quiz from "./images/Quiz.png"
-
+import ToDoList from "./images/ToDoList.png"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -123,8 +124,16 @@ export const projectCardImages = [
     image: Portfolio,
   },
   {
+    name: "Layout_8M",
+    image: Layout8M,
+  },
+  {
     name: "Quiz",
     image: Quiz,
+  },
+  {
+    name: "To-Do-List",
+    image: ToDoList,
   },
 
 ];
